@@ -1,0 +1,51 @@
+name: muselog
+description: Production-grade Flutter app for Muse S / Muse S Athena brain-sensing headbands
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  
+  # Charts and Visualization
+  fl_chart: ^0.65.0
+  
+  # File Storage and Sharing
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+  
+  # Permissions
+  permission_handler: ^11.1.0
+  
+  # CSV Writing
+  csv: ^5.1.1
+  
+  # UUID Generation
+  uuid: ^4.2.2
+  
+  # Async utilities
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment and add assets if needed
+  # assets:
+  #   - assets/images/
